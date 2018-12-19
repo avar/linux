@@ -189,8 +189,6 @@ the SHA-1 ID, and the one line summary.  For example::
 The following ``git config`` settings can be used to add a pretty format for
 outputting the above style in the ``git log`` or ``git show`` commands::
 
-	[core]
-		abbrev = 12
 	[pretty]
 		fixes = Fixes: %h (\"%s\")
 
